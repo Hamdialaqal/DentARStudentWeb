@@ -1,10 +1,11 @@
 {
   "name": "dentar-student-web",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3000"
   },
   "dependencies": {
     "next": "14.2.4",
@@ -12,8 +13,12 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.4.2",
-    "@types/react": "^18.2.14",
-    "typescript": "^5.3.3"
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.41",
+    "typescript": "^5.5.0",
+    "tailwindcss": "^3.4.4",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.19"
   }
-}
+} 
+fix: add @types/react & @types/node to devDependencies
