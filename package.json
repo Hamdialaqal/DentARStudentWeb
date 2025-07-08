@@ -20,5 +20,3 @@
     "postcss": "^8.4.32",
     "autoprefixer": "^10.4.19"
   }
-} 
-fix: add @types/react & @types/node to devDependencies
